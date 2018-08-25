@@ -4,7 +4,7 @@ Here we will see how to set up tomcat in docker.Below are the steps.
 * run the image as container
   * verify if image is running or not
   * verify logs of the container
-  * curl to the container
+  * curl to the container from host
 * remove resources
   * stop the container
   * remove the container
@@ -26,3 +26,23 @@ Build The Image Using Dockerfile
 
 Run The Image As Container
 --------------------------
+* run command: `sudo docker run --rm --name my-container-c -d -p 8081:8080 my-container-image`
+![image](https://user-images.githubusercontent.com/17001948/44620283-0582c700-a8af-11e8-947b-5aab69e33485.png)
+* container created.
+![image](https://user-images.githubusercontent.com/17001948/44620294-32cf7500-a8af-11e8-9203-1dbc137d9f86.png)
+* see container is running: `sudo docker ps`
+![image](https://user-images.githubusercontent.com/17001948/44620298-572b5180-a8af-11e8-8588-836ac9391f26.png)
+* check logs. command : `sudo docker logs my-container-c`
+![image](https://user-images.githubusercontent.com/17001948/44620324-d3be3000-a8af-11e8-9f06-1e7d00d69974.png)
+* Above command will show tomcat logs.
+![image](https://user-images.githubusercontent.com/17001948/44620327-e9cbf080-a8af-11e8-93c7-2d4b3fd7042b.png)
+* use curl command to interact with the tomcat. command: `curl http://localhost:8081`
+![image](https://user-images.githubusercontent.com/17001948/44620333-0bc57300-a8b0-11e8-9f33-8cb9ceb4aee4.png)
+* Above will show the html response of index page of tomcat.
+![image](https://user-images.githubusercontent.com/17001948/44620350-44654c80-a8b0-11e8-8f23-9d1dd55d3410.png)
+* Access it from browser.[See I am using ubuntu terminal.].
+![image](https://user-images.githubusercontent.com/17001948/44620357-71b1fa80-a8b0-11e8-9c4d-bd32bf0d4a31.png)
+
+
+
+
