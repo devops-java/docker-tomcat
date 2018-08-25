@@ -45,7 +45,7 @@ Run The Image As Container
 ![image](https://user-images.githubusercontent.com/17001948/44620357-71b1fa80-a8b0-11e8-9c4d-bd32bf0d4a31.png)
 * Get into the container. command: `sudo docker exec -it my-tomcat-c bash`
 ![image](https://user-images.githubusercontent.com/17001948/44620487-b9398600-a8b2-11e8-9484-185a4fb3a5b9.png)
-* Now curl to the tomcat end point. command: 
+* Now curl to the tomcat end point. command: `curl http://localhost:8080`
 ![image](https://user-images.githubusercontent.com/17001948/44620492-db330880-a8b2-11e8-93a6-29584868c7ff.png)
 * Above command will show the tomcat logs.
 ![image](https://user-images.githubusercontent.com/17001948/44620496-f140c900-a8b2-11e8-8865-1dbb7d410db3.png)
