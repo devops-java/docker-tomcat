@@ -52,5 +52,13 @@ Run The Image As Container
 * Get out from the container. command: `exit`
 ![image](https://user-images.githubusercontent.com/17001948/44620566-226dc900-a8b4-11e8-8406-21d7685059ef.png)
 
-
+Remove the resources
+--------------------
+* stop the container. command: `sudo docker stop my-tomcat-c`. It will also delete the container because we started the container with --rm flag.
+* verify if the container is stopped or running. command: `sudo docker ps -a`
+* delete the image. command: `sudo docker rmi my-tomcat-image`.
+* verify if the image is delete or not: `sudo docker images` .
+![image](https://user-images.githubusercontent.com/17001948/44620593-c35c8400-a8b4-11e8-8f47-73940b416574.png)
+* NO image with name my-tomcat-image will be available as shown below.
+![image](https://user-images.githubusercontent.com/17001948/44620615-19312c00-a8b5-11e8-98ea-5dd5560e0cdc.png)
 
