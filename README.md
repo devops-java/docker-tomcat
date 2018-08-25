@@ -24,3 +24,5 @@ Build The Image Using Dockerfile
 * View image: `sudo docker images`
 ![image](https://user-images.githubusercontent.com/17001948/44620235-4e864b80-a8ae-11e8-8dd5-78a66040a607.png)
 
+Run The Image As Container
+--------------------------
