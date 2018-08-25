@@ -5,6 +5,7 @@ Here we will see how to set up tomcat in docker.Below are the steps.
   * verify if image is running or not
   * verify logs of the container
   * curl to the container from host
+  * 
 * remove resources
   * stop the container
   * remove the container
