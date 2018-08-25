@@ -19,4 +19,6 @@ Build The Image Using Dockerfile
 ![image](https://user-images.githubusercontent.com/17001948/44620163-29450d80-a8ad-11e8-9439-08dabb8d27c2.png)
 * While the above command ix executing to build the image you can see below screenshot.
 ![image](https://user-images.githubusercontent.com/17001948/44620171-542f6180-a8ad-11e8-8125-498d0a9fd226.png)
+* Image created successfully
+![image](https://user-images.githubusercontent.com/17001948/44620215-06672900-a8ae-11e8-960d-0a1205436570.png)
 
